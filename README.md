@@ -1,8 +1,41 @@
 # jitai-service
-Core backend framework with event-driven architecture. Delivers API services, integrations, and event handling. Features interceptors for auth, validation, logging, and standardized interfaces for seamless application integration.
 
-Preparing for Open Source: Exciting things are coming soon.
+**Backend Service Framework for JitAI.**
 
-This repository is currently undergoing internal restructuring and code refinement to ensure we deliver a higher-quality codebase and comprehensive documentation upon our open-source release.
+[🇺🇸 English](README.md) | [🇨🇳 中文](README_ZH.md)
 
-Stay tuned! We will be sharing our work with the community very soon.
+---
+
+> ⚠️ **IMPORTANT NOTE**
+>
+> **jitai-service** is a framework application module of the JitAI platform and **cannot run independently**.
+>
+> For a complete development environment setup, please visit the **[jitai-team/quickstart](https://github.com/jitai-team/quickstart)** repository.
+
+---
+
+## ✨ Key Features
+
+- **Custom Business Services**: Standardized service development specifications and templates
+- **Event-Driven Architecture**: Model events, event subscription and triggering
+- **External API Integration**: Third-party API integration and management
+- **Interceptors**: Frontend and backend interceptors for auth, validation, logging
+
+## 🆚 Community vs Enterprise
+
+| Feature Module | Capability | 🟢 Community Edition | 🔵 Enterprise Edition |
+| :--- | :--- | :---: | :---: |
+| **Business Service** | Standard Service Runtime | ✅ | ✅ |
+| | Visual Editor | ❌ | ✅ |
+| | Cross-App Service | ❌ | ✅ |
+| **Event System** | Model Events | ✅ | ✅ |
+| | Approval Events | ❌ | ✅ |
+| | AI Assistant Events | ❌ | ✅ |
+| | Agent Tool Events | ❌ | ✅ |
+| | Custom Events | ❌ | ✅ |
+| **External Integration** | Standard External API | ✅ | ✅ |
+| **Interceptors** | Frontend & Backend Interceptors | ✅ | ✅ |
+
+## 🤝 Contributing
+
+We welcome contributions! Please refer to [quickstart](https://github.com/jitai-team/quickstart) to get started.
